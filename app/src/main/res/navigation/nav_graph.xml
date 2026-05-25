@@ -9,4 +9,14 @@
         android:name="com.sergey.cityguide.HomeFragment"
         android:label="Home" />
 
+    <fragment
+        android:id="@+id/parksFragment"
+        android:name="com.sergey.cityguide.ParksFragment"
+        android:label="Parks" />
+
+    <fragment
+        android:id="@+id/cafesFragment"
+        android:name="com.sergey.cityguide.CafesFragment"
+        android:label="Cafes" />
+
 </navigation>
