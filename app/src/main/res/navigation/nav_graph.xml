@@ -12,11 +12,22 @@
     <fragment
         android:id="@+id/parksFragment"
         android:name="com.sergey.cityguide.ParksFragment"
-        android:label="Parks" />
+        android:label="Parks">
+
+        <action
+            android:id="@+id/action_parksFragment_to_detailFragment"
+            app:destination="@id/detailFragment"/>
+
+    </fragment>
 
     <fragment
         android:id="@+id/cafesFragment"
         android:name="com.sergey.cityguide.CafesFragment"
         android:label="Cafes" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.sergey.cityguide.DetailFragment"
+        android:label="Details"/>
 
 </navigation>

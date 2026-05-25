@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.fragment.findNavController
 
 class ParksFragment : Fragment() {
 
@@ -35,6 +36,18 @@ class ParksFragment : Fragment() {
         )
 
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        recyclerView.adapter = PlaceAdapter(places)
+        recyclerView.adapter = PlaceAdapter(places) { place ->
+
+            val bundle = Bundle().apply {
+                putString("title", place.title)
+                putString("description", place.description)
+                putInt("imageResId", place.imageResId)
+            }
+
+            findNavController().navigate(
+                R.id.action_parksFragment_to_detailFragment,
+                bundle
+            )
+        }
     }
 }

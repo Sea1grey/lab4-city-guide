@@ -8,7 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class PlaceAdapter(
-    private val places: List<Place>
+    private val places: List<Place>,
+    private val onClick: (Place) -> Unit
 ) : RecyclerView.Adapter<PlaceAdapter.PlaceViewHolder>() {
 
     class PlaceViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -30,6 +31,9 @@ class PlaceAdapter(
         holder.image.setImageResource(place.imageResId)
         holder.title.text = place.title
         holder.description.text = place.description
+        holder.itemView.setOnClickListener {
+            onClick(place)
+        }
     }
 
     override fun getItemCount(): Int = places.size
