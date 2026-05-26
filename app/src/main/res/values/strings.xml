@@ -11,11 +11,12 @@
     <string name="menu_restaurants">Рестораны</string>
     <string name="menu_about">О приложении</string>
     <string name="menu_settings">Настройки</string>
+    <string name="menu_details">Детали</string>
 
     <!-- Home -->
     <string name="home_title">Нижний Новгород</string>
     <string name="home_subtitle">
-        Руководства по интересным местам города
+        Руководство по интересным местам города
     </string>
 
     <!-- Parks -->
@@ -29,9 +30,19 @@
         Парк с красивым видом на Волгу
     </string>
 
-    <string name="park3_title">Сорморский парк</string>
+    <string name="park3_title">Сормовский парк</string>
     <string name="park3_desc">
-        Популярный парк с атракционами и прогулочными зонами
+        Самый большой парк с атракционами и прогулочными зонами
+    </string>
+
+    <string name="park4_title">Парк Победы</string>
+    <string name="park4_desc">
+        Музей военной техники под открытым небом
+    </string>
+
+    <string name="park5_title">Ботанический сад Лобаческого</string>
+    <string name="park5_desc">
+        Здесь можно увидеть растения со всего мира
     </string>
 
     <!-- Cafes -->
@@ -45,6 +56,21 @@
         Необычная кофейня с минималистичном стиле
     </string>
 
+    <string name="cafe3_title">Лепи тесто</string>
+    <string name="cafe3_desc">
+        Кафе с большим выбором пельменей
+    </string>
+
+    <string name="cafe4_title">Мишка</string>
+    <string name="cafe4_desc">
+        Кафе с большим выбором десертов
+    </string>
+
+    <string name="cafe5_title">Штолле</string>
+    <string name="cafe5_desc">
+        Кафе специализирующееся на приготовлении пирогов
+    </string>
+
     <!-- Restaurants -->
     <string name="restaurant1_title">Митрич</string>
     <string name="restaurant1_desc">
@@ -54,6 +80,21 @@
     <string name="restaurant2_title">Yale</string>
     <string name="restaurant2_desc">
         Ресторан с европейской кухней
+    </string>
+
+    <string name="restaurant3_title">Базар</string>
+    <string name="restaurant3_desc">
+        Ресторан с разными кухнями мира
+    </string>
+
+    <string name="restaurant4_title">Мох</string>
+    <string name="restaurant4_desc">
+        Ресторан авторской кухни из фермерских продуктов и мяса диких животных
+    </string>
+
+    <string name="restaurant5_title">Пяткинъ</string>
+    <string name="restaurant5_desc">
+        Ресторан с русской кухней
     </string>
 
     <!-- About -->

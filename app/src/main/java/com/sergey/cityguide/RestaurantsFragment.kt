@@ -27,12 +27,27 @@ class RestaurantsFragment : Fragment() {
             Place(
                 R.string.restaurant1_title,
                 R.string.restaurant1_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.mitrich
             ),
             Place(
                 R.string.restaurant2_title,
                 R.string.restaurant2_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.yale
+            ),
+            Place(
+                R.string.restaurant3_title,
+                R.string.restaurant3_desc,
+                R.drawable.bazar
+            ),
+            Place(
+                R.string.restaurant4_title,
+                R.string.restaurant4_desc,
+                R.drawable.moh
+            ),
+            Place(
+                R.string.restaurant5_title,
+                R.string.restaurant5_desc,
+                R.drawable.pyatkin
             )
         )
 

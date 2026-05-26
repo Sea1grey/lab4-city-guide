@@ -26,12 +26,27 @@ class ParksFragment : Fragment() {
             Place(
                 R.string.park1_title,
                 R.string.park1_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.schweiz
             ),
             Place(
                 R.string.park2_title,
                 R.string.park2_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.alexandr
+            ),
+            Place(
+                R.string.park3_title,
+                R.string.park3_desc,
+                R.drawable.sormov
+            ),
+            Place(
+                R.string.park4_title,
+                R.string.park4_desc,
+                R.drawable.pobeda
+            ),
+            Place(
+                R.string.park5_title,
+                R.string.park5_desc,
+                R.drawable.lobach
             )
         )
 

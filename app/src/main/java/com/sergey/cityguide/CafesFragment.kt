@@ -27,12 +27,27 @@ class CafesFragment : Fragment() {
             Place(
                 R.string.cafe1_title,
                 R.string.cafe1_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.surf
             ),
             Place(
                 R.string.cafe2_title,
                 R.string.cafe2_desc,
-                R.drawable.ic_launcher_background
+                R.drawable.skuratov
+            ),
+            Place(
+                R.string.cafe3_title,
+                R.string.cafe3_desc,
+                R.drawable.testo
+            ),
+            Place(
+                R.string.cafe4_title,
+                R.string.cafe4_desc,
+                R.drawable.mishka
+            ),
+            Place(
+                R.string.cafe5_title,
+                R.string.cafe5_desc,
+                R.drawable.shtolle
             )
         )
 
