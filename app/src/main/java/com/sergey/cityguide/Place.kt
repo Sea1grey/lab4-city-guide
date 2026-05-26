@@ -1,7 +1,7 @@
 package com.sergey.cityguide
 
 data class Place(
-    val title: String,
-    val description: String,
+    val titleResId: Int,
+    val descriptionResId: Int,
     val imageResId: Int
 )

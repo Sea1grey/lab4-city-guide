@@ -25,13 +25,13 @@ class RestaurantsFragment : Fragment() {
 
         val places = listOf(
             Place(
-                "Mitrich",
-                "Современный ресторан в центре Нижнего Новгорода",
+                R.string.restaurant1_title,
+                R.string.restaurant1_desc,
                 R.drawable.ic_launcher_background
             ),
             Place(
-                "Yale",
-                "Популярный ресторан европейской кухни",
+                R.string.restaurant2_title,
+                R.string.restaurant2_desc,
                 R.drawable.ic_launcher_background
             )
         )
@@ -41,8 +41,8 @@ class RestaurantsFragment : Fragment() {
         recyclerView.adapter = PlaceAdapter(places) { place ->
 
             val bundle = Bundle().apply {
-                putString("title", place.title)
-                putString("description", place.description)
+                putString("title", getString(place.titleResId))
+                putString("description", getString(place.descriptionResId))
                 putInt("imageResId", place.imageResId)
             }
 

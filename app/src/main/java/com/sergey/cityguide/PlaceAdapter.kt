@@ -29,8 +29,8 @@ class PlaceAdapter(
         val place = places[position]
 
         holder.image.setImageResource(place.imageResId)
-        holder.title.text = place.title
-        holder.description.text = place.description
+        holder.title.setText(place.titleResId)
+        holder.description.setText(place.descriptionResId)
         holder.itemView.setOnClickListener {
             onClick(place)
         }

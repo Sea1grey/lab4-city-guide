@@ -24,13 +24,13 @@ class ParksFragment : Fragment() {
 
         val places = listOf(
             Place(
-                "Парк Швейцария",
-                "Один из крупнейших парков Нижнего Новгорода",
+                R.string.park1_title,
+                R.string.park1_desc,
                 R.drawable.ic_launcher_background
             ),
             Place(
-                "Александровский сад",
-                "Парк с красивым видом на Волгу",
+                R.string.park2_title,
+                R.string.park2_desc,
                 R.drawable.ic_launcher_background
             )
         )
@@ -39,8 +39,8 @@ class ParksFragment : Fragment() {
         recyclerView.adapter = PlaceAdapter(places) { place ->
 
             val bundle = Bundle().apply {
-                putString("title", place.title)
-                putString("description", place.description)
+                putString("title", getString(place.titleResId))
+                putString("description", getString(place.descriptionResId))
                 putInt("imageResId", place.imageResId)
             }
 

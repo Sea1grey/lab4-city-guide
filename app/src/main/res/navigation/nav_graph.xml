@@ -7,12 +7,12 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.sergey.cityguide.HomeFragment"
-        android:label="Home" />
+        android:label="@string/menu_home" />
 
     <fragment
         android:id="@+id/parksFragment"
         android:name="com.sergey.cityguide.ParksFragment"
-        android:label="Parks">
+        android:label="@string/menu_parks">
 
         <action
             android:id="@+id/action_parksFragment_to_detailFragment"
@@ -23,17 +23,17 @@
     <fragment
         android:id="@+id/cafesFragment"
         android:name="com.sergey.cityguide.CafesFragment"
-        android:label="Cafes"/>
+        android:label="@string/menu_cafes"/>
 
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.sergey.cityguide.AboutFragment"
-        android:label="About"/>
+        android:label="@string/menu_about"/>
 
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.sergey.cityguide.SettingsFragment"
-        android:label="Settings"/>
+        android:label="@string/menu_settings"/>
 
     <fragment
         android:id="@+id/detailFragment"

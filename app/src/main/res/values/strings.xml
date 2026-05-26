@@ -1,3 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CityGuide</string>
+
+    <!-- App -->
+    <string name="app_name">Руководство по  городу</string>
+
+    <!-- Navigation -->
+    <string name="menu_home">Главная</string>
+    <string name="menu_parks">Парки</string>
+    <string name="menu_cafes">Кафе</string>
+    <string name="menu_restaurants">Рестораны</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_settings">Настройки</string>
+
+    <!-- Home -->
+    <string name="home_title">Нижний Новгород</string>
+    <string name="home_subtitle">
+        Руководства по интересным местам города
+    </string>
+
+    <!-- Parks -->
+    <string name="park1_title">Парк Швейцария</string>
+    <string name="park1_desc">
+        Один из самых длинных парков города
+    </string>
+
+    <string name="park2_title">Александрийский сад</string>
+    <string name="park2_desc">
+        Парк с красивым видом на Волгу
+    </string>
+
+    <string name="park3_title">Сорморский парк</string>
+    <string name="park3_desc">
+        Популярный парк с атракционами и прогулочными зонами
+    </string>
+
+    <!-- Cafes -->
+    <string name="cafe1_title">Surf Coffee</string>
+    <string name="cafe1_desc">
+        Стилизованная кофейня с современным дизайном
+    </string>
+
+    <string name="cafe2_title">Skuratov Coffee</string>
+    <string name="cafe2_desc">
+        Необычная кофейня с минималистичном стиле
+    </string>
+
+    <!-- Restaurants -->
+    <string name="restaurant1_title">Митрич</string>
+    <string name="restaurant1_desc">
+        Современный ресторан в центре города
+    </string>
+
+    <string name="restaurant2_title">Yale</string>
+    <string name="restaurant2_desc">
+        Ресторан с европейской кухней
+    </string>
+
+    <!-- About -->
+    <string name="about_text">
+        Приложение с рекомендациями мест в Нижнем Новгороде
+    </string>
+
+    <!-- Settings -->
+    <string name="settings_text">
+        Экран с настройками
+    </string>
+
 </resources>
