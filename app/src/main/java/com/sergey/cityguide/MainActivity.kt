@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val toolbar = findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
 
         setSupportActionBar(toolbar)
 
@@ -32,9 +33,12 @@ class MainActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
+                R.id.homeFragment,
                 R.id.parksFragment,
                 R.id.cafesFragment,
-                R.id.restaurantsFragment
+                R.id.restaurantsFragment,
+                R.id.aboutFragment,
+                R.id.settingsFragment
             ),
             drawerLayout
         )
