@@ -2,11 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/homeFragment"
-        android:title="Home"
-        android:icon="@android:drawable/ic_menu_view"/>
-
-    <item
         android:id="@+id/parksFragment"
         android:title="Parks"
         android:icon="@android:drawable/ic_menu_compass"/>
@@ -15,5 +10,10 @@
         android:id="@+id/cafesFragment"
         android:title="Cafes"
         android:icon="@android:drawable/ic_menu_myplaces"/>
+
+    <item
+        android:id="@+id/restaurantsFragment"
+        android:title="Restaurants"
+        android:icon="@android:drawable/ic_menu_crop"/>
 
 </menu>

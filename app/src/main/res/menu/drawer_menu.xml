@@ -7,13 +7,13 @@
         android:icon="@android:drawable/ic_menu_view"/>
 
     <item
-        android:id="@+id/parksFragment"
-        android:title="Parks"
-        android:icon="@android:drawable/ic_menu_compass"/>
+        android:id="@+id/aboutFragment"
+        android:title="About"
+        android:icon="@android:drawable/ic_menu_info_details"/>
 
     <item
-        android:id="@+id/cafesFragment"
-        android:title="Cafes"
-        android:icon="@android:drawable/ic_menu_myplaces"/>
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_manage"/>
 
 </menu>

@@ -23,11 +23,26 @@
     <fragment
         android:id="@+id/cafesFragment"
         android:name="com.sergey.cityguide.CafesFragment"
-        android:label="Cafes" />
+        android:label="Cafes"/>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.sergey.cityguide.AboutFragment"
+        android:label="About"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.sergey.cityguide.SettingsFragment"
+        android:label="Settings"/>
 
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.sergey.cityguide.DetailFragment"
         android:label="Details"/>
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.sergey.cityguide.RestaurantsFragment"
+        android:label="Restaurants"/>
 
 </navigation>
